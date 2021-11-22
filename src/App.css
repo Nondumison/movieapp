@@ -1,0 +1,155 @@
+button {
+  background-color: #099209;
+  border-color:#099209;
+  border-radius: 6%;
+  border-width: 6px;
+  border-style: solid;
+  font-weight: bold;
+  display: flex;
+ margin-left: 25%;
+  align-items: center;
+  justify-content: center;
+
+}
+:link{
+  text-decoration: none;
+}
+.nav{
+ 
+  overflow: hidden;
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 5em;
+  height: 5em;
+  padding: 0 1.5em;
+  word-wrap: break-word;
+  transition: all 0.3s ease;
+}
+.Navlogo {
+  font-size: 16px;
+  font-weight: bold;
+  display: column;
+  background-color:#646464;
+  text-decoration: none;
+  padding: 0 5px;
+  line-height: 80px;
+  height: 80px;
+  color: #fff;
+  word-wrap: break-word;
+}
+.navbar {
+	
+overflow: hidden;
+ 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	color: #ffcc00; 
+}
+
+
+body {
+	background:  #fff;
+	color: #ffffff;
+	box-sizing: border-box;
+}
+
+
+p {
+	color: #000; 
+	align-items: center;
+	font-size: 0.9rem;
+}
+
+a {
+	color: #ffcc00;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.movie-title {
+	font-size: 1.1rem;
+}
+
+.card {
+	
+	width: 350px;
+	height: 630px;
+	
+  }
+  .card img {
+	border-radius: 10px 10px 0px 0px;
+	width: 20rem;
+	max-height: 530px;
+  }
+  .card .info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+  }
+
+  
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: '80vh';
+	font-size: 1.8rem;
+	color: #000;
+	
+}
+
+.movie-info {
+	overflow-y: auto;
+	width: 8rem;
+	height: 1rem;
+	margin: 10px;
+}
+
+
+.corner-ribbon{
+	width: 200px;
+	background: #e43;
+	position: absolute;
+	top: 25px;
+	left: -50px;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: #f0f0f0;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+  }
+  
+  .corner-ribbon.shadow{
+	box-shadow: 0 0 3px rgba(0,0,0,.3);
+  }
+
+  
+  .corner-ribbon.top-right{
+	top: 25px;
+	right: -50px;
+	left: auto;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+  }
+  
+   .card {
+	overflow: hidden;
+  } 
+ 
